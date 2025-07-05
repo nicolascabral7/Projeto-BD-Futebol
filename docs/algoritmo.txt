@@ -1,0 +1,57 @@
+ALGORITMO DO SISTEMA DE TORNEIOS DE ESPORTS 🎮
+
+1. Exibir menu principal com as opções:
+   1 - Cadastrar jogador
+   2 - Listar jogadores
+   3 - Cadastrar time
+   4 - Listar times
+   5 - Vincular jogador a time
+   6 - Listar jogadores de um time
+   7 - Cadastrar jogo
+   8 - Listar jogos
+   9 - Registrar partida
+   10 - Listar partidas
+   0 - Sair
+
+2. Ler a opção escolhida pelo usuário.
+
+3. Executar a ação correspondente:
+   - Se opção for 1:
+       → Solicita nome, idade, nickname
+       → Valida idade
+       → Cadastra jogador no banco
+   - Se opção for 2:
+       → Lista todos os jogadores cadastrados
+   - Se opção for 3:
+       → Solicita nome do time
+       → Cadastra time no banco
+   - Se opção for 4:
+       → Lista todos os times cadastrados
+   - Se opção for 5:
+       → Mostra lista de jogadores e times
+       → Solicita IDs
+       → Cadastra relação entre jogador e time
+   - Se opção for 6:
+       → Solicita ID do time
+       → Lista todos os jogadores vinculados a esse time
+   - Se opção for 7:
+       → Solicita nome do jogo e categoria
+       → Cadastra jogo no banco
+   - Se opção for 8:
+       → Lista todos os jogos cadastrados
+   - Se opção for 9:
+       → Exibe lista de times e jogos
+       → Solicita:
+           - ID do time 1
+           - ID do time 2
+           - ID do jogo
+           - Data da partida
+           - ID do vencedor
+       → Verifica se os times e o jogo existem
+       → Cadastra a partida
+   - Se opção for 10:
+       → Lista todas as partidas registradas
+   - Se opção for 0:
+       → Finaliza o programa
+
+4. Após executar qualquer ação (exceto sair), voltar ao menu principal.
